@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blue-gradient {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: white;
+}
+
+.gradient {
+    background: linear-gradient(to bottom, #e74c3c, #c0392b);
+    color: white;
+}
+
+#weather-info {
+    text-align: center;
+}
+
+#weather-data {
+    margin-top: 20px;
+}
